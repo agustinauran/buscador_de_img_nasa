@@ -1,0 +1,39 @@
+main {
+  min-height: calc(100vh - 160px);
+}
+
+#contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-container {
+  margin-bottom: 10px;
+}
+
+.card {
+  height: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 210px;
+}
+
+.card-custom-title {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 240px;
+  overflow: hidden;
+  font-size: medium;
+}
